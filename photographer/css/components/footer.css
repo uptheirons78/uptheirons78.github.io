@@ -1,0 +1,47 @@
+footer {
+  background: linear-gradient(to right, #940aea, #3797dc);
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  margin-top: 5px;
+}
+
+footer p {
+  font-size: 1.1rem;
+  margin-bottom: .35rem;
+}
+
+footer a {
+  color: white;
+  font-weight: bold;
+}
+
+footer a:hover {
+  color: rgb(238, 223, 18);
+}
+
+.box-shadow {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+footer p.mobile-to-top {
+  margin-bottom: 1.50rem;
+}
+
+footer.footer-six-hundred {
+  display: none;
+}
+
+@media (min-width: 800px) {
+
+  footer.mobile-footer {
+  display: none;
+  }
+
+  footer.footer-six-hundred {
+  display: block;
+  }
+
+
+}
+
+

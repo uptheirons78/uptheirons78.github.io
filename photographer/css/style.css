@@ -1,0 +1,14 @@
+@import url('./components/header.css');
+@import url('./components/footer.css');
+@import url('./components/image-gallery.css');
+
+
+.hidden {
+  opacity: 0;
+}
+
+.visible {
+  opacity: 1;
+  -webkit-animation-delay: .5s;
+  -webkit-animation-duration: 1s;
+}
